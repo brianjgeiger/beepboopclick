@@ -43,14 +43,7 @@ ${template_hooks['extra_head']()}
 					%endif
 				</ul>	
 			
-				<%block name="belowtitle">
-				%if len(translations) > 1:
-					<li>${base.html_translations()}</li>
-				%endif
-				</%block>
-				% if show_sourcelink:
-					<%block name="sourcelink"></%block>
-				%endif
+				<%block name="belowtitle"></%block>
 				${template_hooks['menu_alt']()}
 			</div>
 			<!-- End Container -->
