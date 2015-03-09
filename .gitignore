@@ -1,0 +1,7 @@
+# Unify theme assets
+/themes/unify/assets/*
+!/themes/unify/assets/extra
+
+/cache/*
+
+.doit.db.db

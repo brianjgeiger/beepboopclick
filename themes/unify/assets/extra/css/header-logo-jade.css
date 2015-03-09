@@ -1,0 +1,15 @@
+@import url(http://fonts.googleapis.com/css?family=Orbitron:700);
+
+span#blog-title{
+	font-size: 18pt;
+	font-family: 'Orbitron', sans-serif;
+	vertical-align: middle;
+}
+
+img#logo {
+	height: 100px;
+}
+
+div.navbar-header {
+	height: 100px;
+}
